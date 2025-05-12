@@ -1,0 +1,163 @@
+@import "init-hospital-font.css";
+
+main {
+    margin-top: 150px; /* Ajusta este valor según la altura de tu barra de navegación */
+}
+body {
+    font-family: 'HospitalRegular', 'Inter', sans-serif !important;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-navbar {
+    background-color: #D1F2EB;
+}
+
+.custom-button{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.custom-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+    font-family: HospitalBold;
+    font-size: 1.2rem;
+}
+.card-img-custom {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+.no-hover:hover {
+    background-color: unset;
+    box-shadow: none;
+
+}
+
+.animation {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animation:hover {
+    transform: scale(2.1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+#img-about-us, #img-services {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#img-about-us:hover, #img-services:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.card-title {
+    font-family: HospitalBold;
+}
+
+.custom-img-card{
+    width: 30%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Estilos para las suscripciones */
+.subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.subscription-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscription-plan {
+    width: 300px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.subscription-plan h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subscription-plan .price {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.subscription-plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subscription-plan ul li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Diferentes colores para cada plan */
+.free-plan {
+    border: 2px solid #317070;
+}
+
+.premium-plan {
+    border: 2px solid #63ffd7;
+}
+
+
+
+/* Hover effect */
+.subscription-plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
